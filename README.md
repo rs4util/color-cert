@@ -31,7 +31,7 @@ Start training by running
 ./train.sh
 ```
 
-## Test
+## Testing
 Start testing/certifying by running
 ```
 ./test.sh
