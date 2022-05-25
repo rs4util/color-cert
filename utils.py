@@ -6,12 +6,6 @@ from typing import *
 import torch
 from torch.utils.data import Dataset
 
-# list of all datasets
-DATASETS = ["cifar10"]
-
-_CIFAR10_MEAN = [0.4914, 0.4822, 0.4465]
-_CIFAR10_STDDEV = [0.2023, 0.1994, 0.2010]
-
 def data_loader(args):
     trainset, labels = get_dataset(args.dataset, split='train')
     testset, _ = get_dataset(args.dataset, split='test')
