@@ -13,7 +13,7 @@ cd color-cert
 
 1. Create and activate Python 3 virtual environment
 ```
-Python3 -m venv env
+python3 -m venv env
 source env/bin/activate
 ```
 2. Installing packages
