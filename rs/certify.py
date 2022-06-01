@@ -15,7 +15,6 @@ import numpy as np
 import scipy.io as sio
 from rs.core import C_Smooth as Smooth
 from tqdm import tqdm
-import seaborn as sns
 import matplotlib.pyplot as plt
 
 def sigma_comparison(sigma, ref):
